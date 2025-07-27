@@ -1,4 +1,5 @@
- let users = [];
+
+        let users = [];
         let users1 = new Array(4)
 
         function addUser(name, age, job, ed) {
@@ -32,22 +33,24 @@
         addUser("arshia ", 23, " teacher ", " diploma ")
 
 
-                function student(firstName, GPA,  lesson , class ) {
+                function addUser(name, age, job, ed) {
 
 
-         const student = {
+            if (typeof name != "string") {
+                console.log("name Error");
+            }
+            else if (typeof age != "number") {
+                console.log("age Error");
+            }
+            else if (typeof job != "string") {
+                console.log("job Error");
+            }
+            else if (typeof ed != "string") {
+                console.log("ed Error");
+            }
 
-            firstName: "arshia",
-            GPA: 19,
-            class: "ab",
-            lesson: ["math", "Arabic ", "sciences"]
+
         }
-
-        console.log(student)
-
-
-        }
-
         addUser("arshia", 65, "teachr", "diploma");
 
 
@@ -85,9 +88,7 @@
 
 
 
-
-
-                const object1 = {
+        const object1 = {
             firstName: "software engineer",
             lastName: "lawyer",
             mohammed: "technical writer",
@@ -126,6 +127,14 @@
         person2.eyeColor = "blue";
 
         console.log(person2)
+
+
+
+
+
+
+
+
 
 
 
