@@ -267,7 +267,7 @@
             border-radius: 5px;
             cursor: pointer;
             transition: background-color 0.3s;
-            display: none; /* اول مخفی */
+            display: none; 
             margin-top: 20px;
         }
 
